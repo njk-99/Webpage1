@@ -1,0 +1,50 @@
+#top{
+      border:1px solid lightgreen;
+      background-color:lightgreen;
+      margin:3px;
+  height:10%;
+    width: 100%;
+     }
+#logo{ 
+   height:100%;
+    width: 18%;
+    float: left;
+}
+#name{
+ height: 100%;
+    width: 30%;
+    float: left;
+}
+#parent{
+   width=100%;
+   min-height=500px;
+}
+.clearfix::after{
+   content:"";
+   display:block;
+   clear:both;}
+ 
+#leftpanal{  
+    
+     border:2px solid cyan;
+     background-color:cyan;
+margin:3px;
+     width:20%;
+     min-height:500px;
+ float:left;
+}
+ 
+ #body{
+   width:80%
+  min-height:500px;
+background-color:white;
+  float:left;
+  margin-top: 0.5%;
+    margin-left:50px;
+}
+
+#bottom{
+      border:1px solid brown;
+      background-color:brown;
+      margin:3px;
+      }
